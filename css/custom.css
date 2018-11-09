@@ -59,6 +59,11 @@ i.fa-3x.mb-3 {
   font-size: 45px;
 }
 }
+@media (max-width: 414px) and (min-width: 318px){
+.banner {
+    min-height: 450px!important;
+}
+}
 @media (min-width:992px) and (max-width:1024px){
   a.navbar-brand.js-scroll-trigger {
     font-size: 25px;
