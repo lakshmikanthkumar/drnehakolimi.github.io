@@ -59,11 +59,6 @@ i.fa-3x.mb-3 {
   font-size: 45px;
 }
 }
-@media (max-width: 414px) and (min-width: 318px){
-.banner {
-    min-height: 450px!important;
-}
-}
 @media (min-width:992px) and (max-width:1024px){
   a.navbar-brand.js-scroll-trigger {
     font-size: 25px;
@@ -147,7 +142,7 @@ i.fa-3x.mb-3 {
     min-height: 1075px!important;
   }
 }
-@media (min-width:318px) and (max-width: 765px){
+@media (min-width:415px) and (max-width: 765px){
   .banner {
     position: relative;
     width: 100vw;
@@ -160,7 +155,19 @@ i.fa-3x.mb-3 {
     background-size: cover;
   }
 }
-
+@media (max-width: 414px) and (min-width: 318px){
+.banner {
+    position: relative;
+    width: 100vw;
+    min-height: 470px!important;
+    /* max-height: 892px!important; */
+    background: url("../images/banner(mobile).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
 @media (min-width:769px) and (max-width: 1024px){
   .banner {
     position: relative;
