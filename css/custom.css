@@ -166,7 +166,7 @@ i.fa-3x.mb-3 {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
-  margin-top: 55px;
+  margin-top: 55px!important;
   }
 }
 @media (max-width: 520px) and (min-width: 415px){
