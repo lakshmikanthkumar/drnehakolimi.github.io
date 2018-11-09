@@ -143,7 +143,7 @@ i.fa-3x.mb-3 {
     width: 100vw;
     min-height: 1060px!important;
     /* max-height: 892px!important; */
-    background: url("../images/banner(mobile).jpg");
+    background: url("../images/banner(mobile).jpg")!important;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
